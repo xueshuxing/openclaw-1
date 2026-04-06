@@ -381,7 +381,7 @@ export const msteamsPlugin: ChannelPlugin<ResolvedMSTeamsAccount, ProbeMSTeamsRe
             configured: account.configured,
           }),
       },
-      auth: msTeamsApprovalAuth,
+      approvalCapability: msTeamsApprovalAuth,
       doctor: {
         dmAllowFromMode: "topOnly",
         groupModel: "hybrid",
