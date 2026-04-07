@@ -1,0 +1,2 @@
+cd apps/android
+./gradlew :app:assembleThirdPartyDebug
